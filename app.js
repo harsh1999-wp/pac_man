@@ -57,6 +57,14 @@ document.addEventListener("DOMContentLoaded" , function(){
                 if(layout[i] === 1){
                     squares[i].classList.add('wall');
                 }
+
+                if(layout[i] === 2){
+                    squares[i].classList.add('ghost-lair')
+                }
+
+                if(layout[i] === 3){
+                    squares[i].classList.add('power-pellet')
+                }
             }
         }
 
